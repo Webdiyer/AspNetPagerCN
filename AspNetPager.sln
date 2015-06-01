@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetPager", "AspNetPager\AspNetPager.csproj", "{0FAC7937-3CDD-41F6-9DC8-C743C9F727F1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Demo(3)", "http://localhost:62648", "{59344FA5-6A6A-465A-AC1D-0DF575F90F68}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0fac7937-3cdd-41f6-9dc8-c743c9f727f1}|AspNetPager.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62648"
+		Debug.AspNetCompiler.PhysicalPath = "Demo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62648\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62648"
+		Release.AspNetCompiler.PhysicalPath = "Demo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62648\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Demo\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FAC7937-3CDD-41F6-9DC8-C743C9F727F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAC7937-3CDD-41F6-9DC8-C743C9F727F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAC7937-3CDD-41F6-9DC8-C743C9F727F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAC7937-3CDD-41F6-9DC8-C743C9F727F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59344FA5-6A6A-465A-AC1D-0DF575F90F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59344FA5-6A6A-465A-AC1D-0DF575F90F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59344FA5-6A6A-465A-AC1D-0DF575F90F68}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{59344FA5-6A6A-465A-AC1D-0DF575F90F68}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
