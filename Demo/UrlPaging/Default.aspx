@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="UrlPaging_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—Url分页"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" MetaDescription="该示例演示如何使用AspNetPager分页控件通过Url进行分页。"  Inherits="UrlPaging_Default" MasterPageFile="~/navpage.master" Title="Url分页"%>
 
 <asp:Content runat="server" ContentPlaceHolderID="main">
     <div>该示例演示如何使用AspNetPager分页控件通过Url进行分页。<br/>相关属性设置：<font color="red"><b>UrlPaging="true"</b></font>

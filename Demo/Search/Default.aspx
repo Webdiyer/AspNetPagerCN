@@ -1,7 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Search_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—动态查询示例"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs"  MetaDescription="该示例演示如何使用AspNetPager分页控件对动态查询的结果进行分页。" Inherits="Search_Default" MasterPageFile="~/navpage.master" Title="动态查询示例"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
-<div>该示例演示如何使用AspNetPager分页控件对动态查询的结果进行分页
+<div>该示例演示如何使用AspNetPager分页控件对动态查询的结果进行分页。
     </div><br />
 <div>Order ID:<asp:DropDownList ID="DropDownList1" runat="server">
         <asp:ListItem>&gt;=</asp:ListItem>

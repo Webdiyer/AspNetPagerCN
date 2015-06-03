@@ -1,8 +1,8 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="NTier_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—N层结构分页示例"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" MetaDescription="该示例演示如何在N层结构的web应用程序中使用AspNetPager分页控件。"  Inherits="NTier_Default" MasterPageFile="~/navpage.master" Title="N层结构分页示例"%>
 
 <%@ Register Assembly="AspNetPager" Namespace="Wuqi.Webdiyer" TagPrefix="webdiyer" %>
 <asp:Content ID="content1" ContentPlaceHolderID="main" runat="server">
-    <div>该示例演示如何在N层结构的web应用程序中使用AspNetPager分页控件</div>
+    <div>该示例演示如何在N层结构的web应用程序中使用AspNetPager分页控件。</div>
     <br />
     <asp:DataList ID="DataList1" runat="server" Width="100%"  RepeatDirection="Horizontal" RepeatColumns="2">
         <ItemStyle Width="50%"/>

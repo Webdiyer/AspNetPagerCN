@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="PagingButtonLayoutType_Default" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/NavPage.master"  MetaDescription="该示例演示如何设置AspNetPager分页导航元素的布局" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="PagingButtonLayoutType_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="header" Runat="Server">
 <style type="text/css">

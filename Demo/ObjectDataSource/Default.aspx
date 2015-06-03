@@ -1,7 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="ObjectDataSource_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—ObjectDataSource示例"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" MetaDescription="该示例演示如何使用AspNetPager分页控件和ObjectDataSource控件进行分页。"  Inherits="ObjectDataSource_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—ObjectDataSource示例"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
-<div>该示例演示如何使用AspNetPager分页控件和ObjectDataSource控件进行分页
+<div>该示例演示如何使用AspNetPager分页控件和ObjectDataSource控件进行分页。
     </div>
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" EnablePaging="True" SelectCountMethod="GetOrderCount" 
     SelectMethod="GetPagedOrders" StartRowIndexParameterName="startIndex" MaximumRowsParameterName="pageSize" 

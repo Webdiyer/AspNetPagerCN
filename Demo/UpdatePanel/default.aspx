@@ -1,6 +1,6 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="Ajax_default" MasterPageFile="../navpage.master" Title="AspNetPager分页示例—配合UpdatePanel实现无刷新分页"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" MetaDescription="该示例演示如何使用AspNetPager分页控件在UpdatePanel中实现无刷新分页。"  Inherits="Ajax_default" MasterPageFile="../navpage.master" Title="配合UpdatePanel实现无刷新分页"%>
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
-<div>该示例演示如何使用AspNetPager分页控件在UpdatePanel中实现无刷新分页</div><br />
+<div>该示例演示如何使用AspNetPager分页控件在UpdatePanel中实现无刷新分页。</div><br />
  <asp:ScriptManager ID="ScriptManager1" runat="server">
         </asp:ScriptManager>
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">

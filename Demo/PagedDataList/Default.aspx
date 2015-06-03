@@ -1,7 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="PagedDataList_Default"  MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—DataList分页示例"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs"  MetaDescription="该示例演示如何使用AspNetPager分页控件对DataList控件进行分页。" Inherits="PagedDataList_Default"  MasterPageFile="~/navpage.master" Title="DataList分页示例"%>
 
 <asp:Content runat="server" ContentPlaceHolderID="main">
-    <div>该示例演示如何使用AspNetPager分页控件对DataList控件进行分页
+    <div>该示例演示如何使用AspNetPager分页控件对DataList控件进行分页。
     </div><br />
         <asp:DataList ID="DataList1" runat="server"  RepeatDirection="Horizontal" RepeatColumns="2" Width="100%">
         <ItemStyle Width="50%"/>

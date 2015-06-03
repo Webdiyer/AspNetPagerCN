@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Basic_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—基本功能" %>
+<%@ Page Language="C#" AutoEventWireup="true" MetaDescription="该示例演示AspNetPager最基本的功能，帮助您认识AspNetPager分页控件及了解它的工作原理。" CodeFile="Default.aspx.cs" Inherits="Basic_Default" MasterPageFile="~/navpage.master" Title="基本功能" %>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
 <div>该示例演示AspNetPager最基本的功能，帮助您认识AspNetPager分页控件及了解它的工作原理。<p>要使AspNetPager正常运行，只需要设置它的<font color="red"><b>RecordCount</b></font>属性的值，根据需要编写<font color="red"><b>PageChanged</b></font>事件处理程序。</p><p>点击下面的分页按钮来看实际的运行效果。</p>

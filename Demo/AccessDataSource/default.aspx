@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="DataSources_PagedDataSrc" MasterPageFile="~/navpage.master" Title="AspNetPager示例—使用AccessDataSource"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="DataSources_PagedDataSrc" MasterPageFile="~/navpage.master" Title="使用AccessDataSource" MetaDescription="该示例演示如何使用AspNetPager分页控件和AccessDataSource控件来对Access数据库中的数据进行分页，不需要使用存储过程。"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
     <div>该示例演示如何使用AspNetPager分页控件和AccessDataSource控件来对Access数据库中的数据进行分页，不需要使用存储过程。

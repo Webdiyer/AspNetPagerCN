@@ -1,6 +1,6 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="PageIndexBox_Default" Title="AspNetPager分页示例—使用页索引框" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" MetaDescription="该示例演示如何使用AspNetPager分页控件的输入或选择页索引功能。"  CodeFile="Default.aspx.cs" Inherits="PageIndexBox_Default" Title="使用页索引框" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
-    <div>AspNetPager分页控件允许用户输入或选择要跳转的页索引，该示例演示使用该功能。<br />
+    <div>该示例演示如何使用AspNetPager分页控件的输入或选择页索引功能。<br />
     相关属性设置：ShowPageIndexBox="Always或Auto" PageIndeBoxType="DropDownList或TextBox"（默认值为 TextBox）
     </div><br />
         <asp:DataList ID="DataList1" runat="server"  RepeatDirection="Horizontal" RepeatColumns="2" Width="100%">

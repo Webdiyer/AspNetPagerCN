@@ -1,7 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="DataSources_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—SqlDataSource示例"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" MetaDescription="该示例演示如何使用AspNetPager分页控件和SqlDataSource控件进行分页。"  Inherits="DataSources_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—SqlDataSource示例"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
-    <div>该示例演示如何使用AspNetPager分页控件和SqlDataSource控件进行分页
+    <div>该示例演示如何使用AspNetPager分页控件和SqlDataSource控件进行分页。
     </div><br />
     <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
         <HeaderTemplate>

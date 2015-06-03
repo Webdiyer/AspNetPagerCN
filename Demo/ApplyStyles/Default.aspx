@@ -1,4 +1,4 @@
-﻿<%@ Page Title="应用样式" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Styles1_Default" %>
+﻿<%@ Page Title="应用样式" MetaDescription="该示例演示如何为AspNetPager分页控件定义及应用样式。" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Styles1_Default" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="header" Runat="Server">

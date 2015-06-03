@@ -1,6 +1,6 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="CustomInfoSection_Default" Title="AspNetPager示例—使用自定义信息区" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" MetaDescription="该示例演示如何使用AspNetPager分页控件的自定义信息区显示自定义分页信息。"  AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="CustomInfoSection_Default" Title="AspNetPager示例—使用自定义信息区" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
-    <div>该示例演示如何使用AspNetPager分页控件的自定义信息区显示自定义分页信息
+    <div>该示例演示如何使用AspNetPager分页控件的自定义信息区显示自定义分页信息。
     </div><br />
         <asp:DataList ID="DataList1" runat="server"  RepeatDirection="Horizontal" RepeatColumns="2" Width="100%">
         <ItemStyle Width="50%"/>

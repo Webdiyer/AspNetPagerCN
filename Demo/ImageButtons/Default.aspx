@@ -1,7 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="ImageButtons_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—使用图片按钮"%>
+<%@ Page Language="C#" AutoEventWireup="true"  MetaDescription="该示例演示如何在AspNetPager分页控件中使用图片按钮。" CodeFile="Default.aspx.cs" Inherits="ImageButtons_Default" MasterPageFile="~/navpage.master" Title="使用图片按钮"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
-    <div>该示例演示如何在AspNetPager分页控件中使用图片按钮
+    <div>该示例演示如何在AspNetPager分页控件中使用图片按钮。
     </div><br />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Width="100%" HeaderStyle-BackColor="#CCCCFF" AlternatingRowStyle-BackColor="#eaeaea" RowStyle-BackColor="#FAF3DC">
             <Columns>

@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="UrlRewriting_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例-Url重写"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs"  MetaDescription="该示例演示在使用AspNetPager的url分页方式时重写url。" Inherits="UrlRewriting_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例-Url重写"%>
 
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
 <div>该示例演示在使用AspNetPager的url分页方式时重写url。<br />需要设置的相关属性有：<font color="red"><b>EnableUrlRewriting="true" UrlRewritePattern="../Url重写/第{0}页.aspx"</b></font>。

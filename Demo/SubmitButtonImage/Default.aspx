@@ -1,7 +1,7 @@
-﻿<%@ Page Title="AspNetPager分页控件示例—使用图片按钮" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="SubmitButtonImage_Default" %>
+﻿<%@ Page Title="AspNetPager分页控件示例—使用图片按钮" Language="C#" MetaDescription="该示例演示如何使页索引提交按钮使用自定义图片。"  MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="SubmitButtonImage_Default" %>
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="main">
-    <div>该示例演示如何使页索引提交按钮使用自定义图片<br/>相关属性设置：<font color="red"><b>SubmitButtonImageUrl="路片相对路径"</b></font>
+    <div>该示例演示如何使页索引提交按钮使用自定义图片。<br/>相关属性设置：<font color="red"><b>SubmitButtonImageUrl="路片相对路径"</b></font>
     </div><br />
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Width="100%">
             <Columns>

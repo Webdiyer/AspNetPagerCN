@@ -1,7 +1,7 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="CenterCurrentPageButton_Default" Title="AspNetPager示例—居中当前页索引按钮" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" MetaDescription="该示例演示如何设置AspNetPager 分页控个把当前页索引按钮在所有数字页索引按钮中的位置。" CodeFile="Default.aspx.cs" Inherits="CenterCurrentPageButton_Default" Title="AspNetPager示例—居中当前页索引按钮" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
 
-    <div>该示例演示如何设置AspNetPager 分页控个把当前页索引按钮在所有数字页索引按钮中的位置：
+    <div>该示例演示如何设置AspNetPager 分页控个把当前页索引按钮在所有数字页索引按钮中的位置。
     <br />（<font color="red">注：上一版本中通过设置CenterCurrentPageButton="true"使当前页按钮居中的方法仍然起作用，但CenterCurrentPageButton属性已被标记为废止，以后的版本中将不再可用。</font>）
        </div><br />
         <hr /><b>默认值（当前页索引按钮位置固定不变）</b>：<br />

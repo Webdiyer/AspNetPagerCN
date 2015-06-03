@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="CurrentPageIndex_Default" %>
+﻿<%@ Page Title="" Language="C#"  MetaDescription="该示例演示如何以编程方式动态指定要跳转的页面的索引，使用GoToPage方法引发分页事件并跳转到指定页面。" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="CurrentPageIndex_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="header" Runat="Server">
 </asp:Content>

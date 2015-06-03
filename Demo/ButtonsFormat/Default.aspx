@@ -1,6 +1,6 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="ButtonsFormat_Default" Title="AspNetPager分页示例 — 自定义导航按钮" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" MetaDescription="该示例演示如何使用自定义AspNetPager分页控件的分页导航按钮文本及样式。" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="ButtonsFormat_Default" Title="AspNetPager分页示例 — 自定义导航按钮" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
-    <div>该示例演示如何使用自定义AspNetPager分页控件的分页导航按钮文本及样式
+    <div>该示例演示如何使用自定义AspNetPager分页控件的分页导航按钮文本及样式。
     </div><br />
         <asp:DataList ID="DataList1" runat="server"  RepeatDirection="Horizontal" RepeatColumns="2" Width="100%">
         <ItemStyle Width="50%"/>

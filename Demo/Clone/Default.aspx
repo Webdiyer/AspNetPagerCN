@@ -1,6 +1,6 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Clone_Default" Title="AspNetPager分页示例—克隆" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" MetaDescription="该示例演示如何克隆AspNetPager分页控件的属性和事件处理程序" CodeFile="Default.aspx.cs" Inherits="Clone_Default" Title="AspNetPager分页示例—克隆" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
-    <div>该示例演示使用两个AspNetPager分页控件为同一数据绑定控件进行分页，只需设置一个AspNetPager分页控件的属性及事件处理程序，另一分页控件使用CloneFrom属性克隆此控件的属性及事件处理程序而无需重复设置属性及事件处理程序。<br/>相关属性设置：<font color="red"><b>CloneFrom="要克隆的AspNetPager分页控件的ID"</b></font>
+    <div>该示例演示如何克隆AspNetPager分页控件的属性和事件处理程序。只需设置一个AspNetPager分页控件的属性及事件处理程序，另一分页控件使用CloneFrom属性克隆此控件的属性及事件处理程序而无需重复设置属性及事件处理程序。<br/>相关属性设置：<font color="red"><b>CloneFrom="要克隆的AspNetPager分页控件的ID"</b></font>
     </div><br />
         
         <webdiyer:aspnetpager id="AspNetPager1" runat="server" horizontalalign="Center" PagingButtonSpacing="8px" onpagechanged="AspNetPager1_PageChanged"

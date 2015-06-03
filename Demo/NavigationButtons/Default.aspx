@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="NavigationButtons_Default" Title="AspNetPager分页示例—分页按钮属性效果" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" MetaDescription="该示例演示AspNetPager部分按钮属性，通过设置这些属性可以控制AspNetPager 显示或不显示哪些分页导航按钮。"  AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="NavigationButtons_Default" Title="分页按钮属性效果" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
 <div>该示例演示AspNetPager部分按钮属性，通过设置这些属性可以控制AspNetPager 显示或不显示哪些分页导航按钮。
 </div><br />

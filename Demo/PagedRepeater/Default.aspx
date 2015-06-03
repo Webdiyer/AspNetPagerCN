@@ -1,7 +1,7 @@
-<%@ Page Language="C#" Theme="Classic" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="PagedRepeater_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—Repeater分页示例" %>
+<%@ Page Language="C#" Theme="Classic" AutoEventWireup="true" CodeFile="Default.aspx.cs"  MetaDescription="该示例演示如何使用AspNetPager分页控件对Repeater控件进行分页。" Inherits="PagedRepeater_Default" MasterPageFile="~/navpage.master" Title="AspNetPager示例—Repeater分页示例" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="main">
-    <div>该示例演示如何使用AspNetPager分页控件对Repeater控件进行分页
+    <div>该示例演示如何使用AspNetPager分页控件对Repeater控件进行分页。
     </div><br />
         <webdiyer:AspNetPager ID="AspNetPager1" runat="server" Width="100%" UrlPaging="true" ShowPageIndexBox="Always" PageIndexBoxType="DropDownList" TextBeforePageIndexBox="Go To Page: " HorizontalAlign="right" PageSize="12" OnPageChanged="AspNetPager1_PageChanged" EnableTheming="true">
         </webdiyer:AspNetPager>

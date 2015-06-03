@@ -1,4 +1,4 @@
-﻿<%@ Page Title="AspNetPager分页示例—使用Table布局" Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="TableLayout_Default" %>
+﻿<%@ Page Title="使用Table布局" Language="C#" MetaDescription="该示例演示使用AspNetPager分页控件的Table布局，而非默认的Div布局，使用Table布局可以确保自定义信息区文本内容、页索引按钮、页索引输入或选择框以及页索引导航链接文本等对齐方式保持整齐一致。"  MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="TableLayout_Default" %>
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="main">
     <div>该示例演示使用AspNetPager分页控件的Table布局，而非默认的Div布局，使用Table布局可以确保自定义信息区文本内容、页索引按钮、页索引输入或选择框以及页索引导航链接文本等对齐方式保持整齐一致。<br/>相关属性设置：<font color="red"><b>LayoutType="Table"</b></font>

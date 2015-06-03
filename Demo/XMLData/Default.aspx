@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="XMLData_Default" MasterPageFile="~/navpage.master" Title="AspNetPager分页示例—XML数据分页"%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" MetaDescription="该示例演示如何使用AspNetPager分页控件对保存在XML文件中的数据进行分页。"  Inherits="XMLData_Default" MasterPageFile="~/navpage.master" Title="XML数据分页"%>
 <asp:Content runat="server" ID="content1" ContentPlaceHolderID="main">
 <div>该示例演示如何使用AspNetPager分页控件对保存在XML文件中的数据进行分页
     </div><br />

@@ -1,7 +1,7 @@
-<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="UrlSearch_Default" Title="AspNetPager分页示例—动态查询示例" %>
+<%@ Page Language="C#" MasterPageFile="~/NavPage.master" AutoEventWireup="true" MetaDescription="该示例演示如何使用AspNetPager分页控件对动态查询的结果进行Url分页。"  CodeFile="Default.aspx.cs" Inherits="UrlSearch_Default" Title="动态查询示例" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="main" Runat="Server">
-<div>该示例演示如何使用AspNetPager分页控件对动态查询的结果进行Url分页
+<div>该示例演示如何使用AspNetPager分页控件对动态查询的结果进行Url分页。
     </div><br />
 <div>Order ID >= <asp:TextBox ID="tb_orderid" runat="server" Width="90px"></asp:TextBox>
     <asp:Button ID="btn_search" runat="server" OnClick="btn_search_Click" Text="Search" />
