@@ -478,7 +478,6 @@ namespace Wuqi.Webdiyer
                 else
                     AddClassAndStyle(PrevNextButtonsClass, PrevNextButtonsStyle, writer);//next page or prevous page button
             }
-            AddPagingButtonLayoutTag(writer); //<li> or <span>
 
             string linktext;
             bool disabled;
@@ -491,6 +490,7 @@ namespace Wuqi.Webdiyer
                 disabled = (CurrentPageIndex <= 1) | !Enabled;
                 if (!ShowDisabledButtons && disabled)
                     return;
+            AddPagingButtonLayoutTag(writer); //<li> or <span>
                 pageIndex = (btn == NavigationButton.First) ? 1 : (CurrentPageIndex - 1);
                 writeSpacingStyle(writer);
                 if (PagingButtonLayoutType == PagingButtonLayoutType.None) //add css class and style attribute to pager item directly
@@ -552,6 +552,7 @@ namespace Wuqi.Webdiyer
                 disabled = (CurrentPageIndex >= PageCount) | !Enabled;
                 if (!ShowDisabledButtons && disabled)
                     return;
+                AddPagingButtonLayoutTag(writer); //<li> or <span>
                 pageIndex = (btn == NavigationButton.Last) ? PageCount : (CurrentPageIndex + 1);
                 writeSpacingStyle(writer);
                 if (PagingButtonLayoutType == PagingButtonLayoutType.None) //add css class and style attribute to pager item directly
